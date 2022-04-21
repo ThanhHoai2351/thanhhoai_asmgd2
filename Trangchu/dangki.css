@@ -1,0 +1,22 @@
+#gioitinh {
+    background-color: rgb(249, 185, 88);
+    width: 300px;
+    height: 25px;
+}
+form {
+    background-color: rgb(112, 183, 230);
+    width: 400px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+}
+#quoctich {
+    width: 150px;
+}
+body {
+    font-size: 20px;
+    
+}
+input>text{
+    width: 300px;
+}

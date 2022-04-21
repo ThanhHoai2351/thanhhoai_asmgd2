@@ -1,0 +1,123 @@
+.menu>a:hover {
+    color: rgb(241, 234, 234);
+    text-decoration: underline;
+    
+}
+
+body {
+
+    text-align: center;
+    width: 1536px;
+    height: 456px;
+
+}
+
+.menu>a {
+    font-size: 34px;
+    color: rgb(21, 7, 7);
+    margin: 0px 0px 0px 40px;
+    padding: 0px 10px 0px 0px;
+    text-decoration: none;
+
+
+}
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+header .logo img{
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    left: 100px;
+    top: 0;
+}
+
+header {
+    background-image: linear-gradient(90deg, rgba(49,18,75,0.6), rgba(49,18,75,0.6));
+    background-repeat: no-repeat;
+    width: 1536px;
+    height: 90px;
+   
+}
+
+article>img {
+    width: 1536px;
+}
+
+.zom_1.zom_2.zom_3 {
+    display: inline-block;
+    overflow: hidden;
+}
+
+footer .zom_1 .image_footer {
+    background: url(../image/mont.jpg);
+    background-size: cover;
+    width: 1536px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+footer .zom_1 .image_footer:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+footer .zom_2 .image_footer:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+footer .zom_3 .image_footer:hover {
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+footer .zom_2 .image_footer {
+    background: url(../image/liye.jpg);
+    background-size: cover;
+    width: 1536px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+footer .zom_3 .image_footer {
+    background: url(../image/inayuma.jpg);
+    background-size: cover;
+    width: 1536px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+footer .zom_1 .image_footer .char {
+    opacity: 0;
+    transition: transform .5s;
+    margin-left: -750px;
+}
+
+footer .zom_1 .image_footer:hover .char {
+    opacity: 100%;
+    transform: scale(1.1);
+}
+
+footer .zom_2 .image_footer .char {
+    opacity: 0;
+    transition: transform .5s;
+}
+
+footer .zom_2 .image_footer:hover .char {
+    opacity: 100%;
+    transform: scale(1.1);
+}
+
+footer .zom_3 .image_footer .char {
+    opacity: 0;
+    transition: transform .5s;
+    margin-left: 750px;
+}
+
+footer .zom_3 .image_footer:hover .char {
+    opacity: 100%;
+    transform: scale(1.1);
+}
