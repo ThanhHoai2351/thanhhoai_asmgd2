@@ -13,11 +13,13 @@ body {
 }
 
 .menu>a {
-    font-size: 34px;
+    font-size: 20px;
     color: rgb(21, 7, 7);
     margin: 0px 0px 0px 40px;
     padding: 0px 10px 0px 0px;
     text-decoration: none;
+    font-variant: small-caps;
+    
 
 
 }
@@ -35,10 +37,11 @@ header .logo img{
 }
 
 header {
-    background-image: linear-gradient(90deg, rgba(49,18,75,0.6), rgba(49,18,75,0.6));
+    background-image: linear-gradient(90deg, rgba(16, 8, 23, 0.6), rgba(12, 10, 12, 0.6));
     background-repeat: no-repeat;
     width: 1536px;
-    height: 90px;
+    height: 70px; 
+    
    
 }
 
@@ -121,3 +124,15 @@ footer .zom_3 .image_footer:hover .char {
     opacity: 100%;
     transform: scale(1.1);
 }
+.logo-2{
+    top: 800px;
+    position: absolute;
+    right: 5%;
+    left: 5%;
+}
+.thongbao{
+    top: 1100px;
+    position: absolute;
+    left: 10%;
+}
+  
